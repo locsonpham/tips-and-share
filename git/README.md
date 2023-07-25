@@ -10,3 +10,9 @@ git branch show output in new screen, requires 'q' to close and you forgot your 
 `
 git config --global pager.branch false
 `
+
+## Fetch remote branches and remove deleted remote branches
+`
+git fetch -p
+git fetch --prune
+`
